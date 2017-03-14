@@ -140,7 +140,7 @@ ann@example.com/
 
 is called the *user root* for `ann@example.com`, analogous to Unix's `$HOME`.
 Looking at the full path, `ann@example.com/dir/file`, there is a directory
-`dir` in the user root; it in turn contains the named file.
+`dir` in the user root; it in turn contains the named `file`.
 
 Any user with appropriate permission can access the contents of this file by
 using Upspin services to evaluate the full path name.
